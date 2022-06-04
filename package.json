@@ -1,5 +1,17 @@
 {
   "dependencies": {
-    "nodemon": "^2.0.16"
+    "node_module": "^0.0.0",
+    "nodemon": "^2.0.16",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "homepage": " https://radhika1381.github.io/Bus-App",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
